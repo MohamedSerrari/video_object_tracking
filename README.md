@@ -72,9 +72,18 @@ The structure of your folder must now look like the structure shown here.
 
 ### Visualizing samples
 
+| Class | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 | Sample 6 | Sample 7 | Sample 8 | Sample 9 | Sample 10 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Bowl | ![](images/bowl/BowlPlace1Subject1_2_bboxes_218_0.png) | ![](images/bowl/BowlPlace1Subject1_2_bboxes_98_0.png) | ![](images/bowl/BowlPlace4Subject1_2_bboxes_160_0.png) | ![](images/bowl/BowlPlace4Subject2_2_bboxes_121_0.png) | ![](images/bowl/BowlPlace5Subject1_2_bboxes_74_0.png) | ![](images/bowl/BowlPlace5Subject1_2_bboxes_97_0.png) | ![](images/bowl/BowlPlace6Subject1_2_bboxes_123_0.png) | ![](images/bowl/BowlPlace6Subject1_2_bboxes_149_0.png) | ![](images/bowl/BowlPlace7Subject2_2_bboxes_184_0.png) | ![](images/bowl/BowlPlace7Subject2_2_bboxes_207_0.png) |
+| CanOfCocaCola | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_130_0.png) | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_149_0.png) | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_163_0.png) | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_231_0.png) | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_75_0.png) | ![](images/coca/CanOfCocaColaPlace2Subject1_2_bboxes_90_0.png) | ![](images/coca/CanOfCocaColaPlace3Subject2_2_bboxes_354_0.png) | ![](images/coca/CanOfCocaColaPlace3Subject2_2_bboxes_429_0.png) | ![](images/coca/CanOfCocaColaPlace5Subject1_2_bboxes_58_0.png) | ![](images/coca/CanOfCocaColaPlace5Subject1_2_bboxes_82_0.png) |
+| MilkBottle | ![](images/milk/MilkBottlePlace1Subject1_2_bboxes_164_0.png) | ![](images/milk/MilkBottlePlace1Subject1_2_bboxes_33_0.png) | ![](images/milk/MilkBottlePlace1Subject1_2_bboxes_94_0.png) | ![](images/milk/MilkBottlePlace2Subject2_2_bboxes_19_0.png) | ![](images/milk/MilkBottlePlace4Subject1_2_bboxes_118_0.png) | ![](images/milk/MilkBottlePlace4Subject1_2_bboxes_304_0.png) | ![](images/milk/MilkBottlePlace6Subject2_2_bboxes_63_0.png) | ![](images/milk/MilkBottlePlace6Subject2_2_bboxes_66_0.png) | ![](images/milk/MilkBottlePlace7Subject1_2_bboxes_106_0.png) | ![](images/milk/MilkBottlePlace7Subject1_2_bboxes_118_0.png) |
+| Rice | ![](images/rice/RicePlace1Subject1_2_bboxes_150_0.png) | ![](images/rice/RicePlace1Subject1_2_bboxes_205_0.png) | ![](images/rice/RicePlace1Subject1_2_bboxes_80_0.png) | ![](images/rice/RicePlace2Subject1_2_bboxes_162_0.png) | ![](images/rice/RicePlace2Subject1_2_bboxes_62_0.png) | ![](images/rice/RicePlace3Subject1_2_bboxes_189_0.png) | ![](images/rice/RicePlace3Subject1_2_bboxes_280_0.png) | ![](images/rice/RicePlace4Subject1_2_bboxes_101_0.png) | ![](images/rice/RicePlace5Subject1_2_bboxes_160_0.png) | ![](images/rice/RicePlace5Subject1_2_bboxes_99_0.png) |
+| Sugar | ![](images/sugar/SugarPlace1Subject1_2_bboxes_45_0.png) | ![](images/sugar/SugarPlace2Subject1_2_bboxes_118_0.png) | ![](images/sugar/SugarPlace3Subject1_2_bboxes_169_0.png) | ![](images/sugar/SugarPlace3Subject1_2_bboxes_274_0.png) | ![](images/sugar/SugarPlace5Subject1_2_bboxes_169_0.png) | ![](images/sugar/SugarPlace5Subject1_2_bboxes_93_0.png) | ![](images/sugar/SugarPlace5Subject2_2_bboxes_85_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_121_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_251_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_296_0.png) |
+
+
 ### Class Distribution in Train and Test
 
-These is a class imbalance between the training and testing data 
+There is a class imbalance between the training and testing data 
 
 <p align="center">
   <img src="results/class_partition.jpg?style=center" alt="class_distribution" width=400px/>
@@ -82,15 +91,17 @@ These is a class imbalance between the training and testing data
 
 ### Conclusions about data:
 
+```
 There are multiples issues with the data:
 
-* Many images have motion blurr.
+- Many images have motion blurr.
 
-* The dataset suffers from inclass heterogenity. This is a direct effect of using data captured in the wild.
+- The dataset suffers from inclass heterogenity. This is a direct effect of using data captured in the wild.
 
-* Different lighting conditions.
+- Different lighting conditions.
 
-* Class imbalance between train and test set.
+- Class imbalance between train and test set.
+```
 
 ## Training The Model
 
