@@ -70,7 +70,7 @@ The structure of your folder must now look like the structure shown here.
 
 ## Analyzing the dataset
 
-### Visualizing samples
+### 1. Visualizing samples
 
 | Class | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 | Sample 6 | Sample 7 | Sample 8 | Sample 9 | Sample 10 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -81,7 +81,7 @@ The structure of your folder must now look like the structure shown here.
 | Sugar | ![](images/sugar/SugarPlace1Subject1_2_bboxes_45_0.png) | ![](images/sugar/SugarPlace2Subject1_2_bboxes_118_0.png) | ![](images/sugar/SugarPlace3Subject1_2_bboxes_169_0.png) | ![](images/sugar/SugarPlace3Subject1_2_bboxes_274_0.png) | ![](images/sugar/SugarPlace5Subject1_2_bboxes_169_0.png) | ![](images/sugar/SugarPlace5Subject1_2_bboxes_93_0.png) | ![](images/sugar/SugarPlace5Subject2_2_bboxes_85_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_121_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_251_0.png) | ![](images/sugar/SugarPlace6Subject1_2_bboxes_296_0.png) |
 
 
-### Class Distribution in Train and Test
+### 2. Class Distribution in Train and Test
 
 There is a class imbalance between the training and testing data 
 
@@ -89,9 +89,8 @@ There is a class imbalance between the training and testing data
   <img src="results/class_partition.jpg?style=center" alt="class_distribution" width=400px/>
 </p>
 
-### Conclusions about data:
+### 3. Conclusions about data:
 
-```
 There are multiples issues with the data:
 
 - Many images have motion blurr.
@@ -101,19 +100,18 @@ There are multiples issues with the data:
 - Different lighting conditions.
 
 - Class imbalance between train and test set.
-```
 
 ## Training The Model
 
-* In order to train the model run the command
+In order to train the model run the command
 
-```
+```python
 python train.py
 ```
 
 During training, the script will save checkpoints of the model and show the accuracy on the training and evaluation set via `TensorBoard`. To follow the training you can launch `TensorBoard` using the command:
 
-```
+```python
 tensorboard --logdir=logs
 ```
 
@@ -157,6 +155,10 @@ CanOfCocaCola       0.98      0.98      0.98       180
 
  weighted avg       0.97      0.97      0.97      1000
 </pre>
+
+## TODO:
+
+Implementing the code that will use this model to do object tracking in a video flux
 
 ## Resources
 
