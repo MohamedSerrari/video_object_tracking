@@ -127,3 +127,23 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Ignore training data
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.mp4
+*.mp3
+*.h264
+*.zip
+*.json
+*.pyc
+*.v2
+*.data-00000-of-00001
+*.index
+*.profile-empty
+*.pb
+*.gz
+logs/
