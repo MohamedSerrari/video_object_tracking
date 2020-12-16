@@ -11,12 +11,12 @@ For the first part of this project, we trained the MobileNetV2 architecture on a
 
 ## Setting up the project
 
-### 1 - Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/MohamedSerrari/video_object_tracking.git
 ```
 
-### 2 - Install the dependencies of the project. 
+### 2. Install the dependencies of the project. 
 
 * We recommend to use anaconda to manage your python environments.
 
@@ -26,12 +26,12 @@ git clone https://github.com/MohamedSerrari/video_object_tracking.git
 pip install -r requirements.txt
 ```
 
-### 3 - Download the zip containing the labeled training and testing data:
+### 3. Download the zip containing the labeled training and testing data:
 ```
 https://dept-info.labri.fr/~mansenca/GITW_light/DB.zip
 ```
 
-### 4 - Unzip the zip file into the cloned repo
+### 4. Unzip the zip file into the cloned repo
 
 The structure of your folder must now look like the structure shown here. 
 
