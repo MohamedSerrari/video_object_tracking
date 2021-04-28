@@ -214,13 +214,13 @@ We modified the way we average the boxes. Previously we used xywh coordinates di
 
 ### Results
 
-[Tracking sugar in plastic bag](https://drive.google.com/file/d/1naqpvu7qs0XzeDpXXM39d6VvEj2dkNIx/view?usp=sharing)
+Click the link to watch the video : [Tracking sugar in plastic bag](https://drive.google.com/file/d/1naqpvu7qs0XzeDpXXM39d6VvEj2dkNIx/view?usp=sharing)
 
 
-[Tracking sugar in cardboard box](https://drive.google.com/file/d/1GlRXBUwFWnJXBWIs20julQ3hp91J6vjZ/view?usp=sharing)
+Click the link to watch the video : [Tracking sugar in cardboard box](https://drive.google.com/file/d/1GlRXBUwFWnJXBWIs20julQ3hp91J6vjZ/view?usp=sharing)
 
 
-[Tracking coca and lost](https://drive.google.com/file/d/1nSDrQd_O5XC887f5pYh6-hKh3z5B-0fZ/view?usp=sharing)
+Click the link to watch the video : [Tracking coca and lost](https://drive.google.com/file/d/1nSDrQd_O5XC887f5pYh6-hKh3z5B-0fZ/view?usp=sharing)
 
 
 ### Ways to improve tracking
