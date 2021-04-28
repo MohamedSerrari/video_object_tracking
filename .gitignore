@@ -147,3 +147,6 @@ dmypy.json
 *.pb
 *.gz
 logs/
+*.h5
+*.txt
+
