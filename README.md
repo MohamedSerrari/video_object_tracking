@@ -6,6 +6,10 @@ More specificaly about grasping object in the wild.
   <img src="images/grasping_rice.gif?style=center" alt="Grasping in the wild" width=600px/>
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43576891/121077269-b5fbb480-c7d7-11eb-9c33-3034f47dbb9f.gif?style=center" alt="Grasping in the wild" width=600px/>
+</p>
+
 For the first part of this project, we trained the MobileNetV2 architecture on a database of crops of 
 
 
